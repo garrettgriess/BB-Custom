@@ -1,6 +1,9 @@
-//Version 0.74
-//Needs updated to Version 0.75
-
+// ==UserScript==
+// @name        BB-Custom
+// @include     https://chartbeat.com/labs/publishing/bigboard/*
+// @require http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+// @grant       none
+// ==/UserScript==
 $(document).ready(function(){ 
 	$('body').css("background-color","#090f14");
 	$('.filled-bar').css("background-color","#233743");
